@@ -4,7 +4,7 @@
 }
 .lt-wrap {
     /* พื้นหลังแบบซ้อนเลเยอร์: สีขาวโปร่งแสง ทับบน รูปภาพพื้นหลัง */
-    background: linear-gradient(to top, rgba(255,255,255,0.95), rgba(255,255,255,0.75)), var(--lt-bg-img) center/cover fixed;
+    background: linear-gradient(to top, rgba(0,0,0,0.95), rgba(0,0,0,0.5)), var(--lt-bg-img) center/cover fixed;
     padding: 40px 20px;
     font-family: 'Bai Jamjuree', sans-serif;
     color: var(--lt-text);
