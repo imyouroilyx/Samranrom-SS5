@@ -32,8 +32,9 @@
 }
 .ssr-pola-frame {
     position: relative;
-    width: 260px;
-    height: 320px;
+    width: 35%;
+    max-width: 260px;
+    aspect-ratio: 260 / 320;
     flex-shrink: 0;
     margin-left: 5px;
     transform: rotate(-1.5deg);
@@ -51,7 +52,7 @@
 }
 .ssr-pola-frame::before {
     transform: rotate(4deg) translate(2px, 2px);
-    box-shadow: 3px 3px 0px #e0e0e0;
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.05);
 }
 .ssr-pola-frame::after {
     transform: rotate(-4deg) translate(-2px, 4px);
